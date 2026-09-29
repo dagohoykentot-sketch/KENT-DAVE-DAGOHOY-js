@@ -1,0 +1,38 @@
+
+// Variables
+let name = "Kent";
+let age = 20;
+let food = "Pizza";
+
+// Arrays
+let foods = ["Pizza", "Burger", "Chicken"];
+let drinks = ["Coke", "Juice", "Water"];
+let numbers = [1, 2, 3];
+
+// Loop 1
+for (let i = 0; i < foods.length; i++) {
+    console.log(foods[i]);
+}
+
+// Loop 2
+for (let i = 0; i < drinks.length; i++) {
+    console.log(drinks[i]);
+}
+
+// Loop 3
+for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]);
+}
+
+// Conditionals
+if (age >= 18) {
+    console.log("Adult");
+}
+
+if (food == "Pizza") {
+    console.log("You like pizza!");
+}
+
+if (name == "Kent") {
+    console.log("Hello Kent!");
+}
